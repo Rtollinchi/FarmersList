@@ -1,11 +1,12 @@
 class Product{
-    constructor(name, price, description, instock){
+    constructor(name, price, description, inStock){
         // constructor(name, price, description, instock){
         this.name=name;
         this.price=price;
         this.description=description;
-        // 
-        this.instock=instock;
+        inStock=true;
+        this.inStock=inStock;
+        // this.instock=true;
         
     }
     display(){
