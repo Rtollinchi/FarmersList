@@ -10,8 +10,6 @@ class Product{
         
     }
     display(){
-        
-        // console.log(`Name: ${this.name}, Price: ${this.price}, Description: ${this.description}`)
         return `Name: ${this.name}, Price: $${this.price}, Description: ${this.description}`}
 }
 module.exports = Product;
