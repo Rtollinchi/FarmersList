@@ -7,7 +7,7 @@ class Product{
         inStock=true;
         this.inStock=inStock;
         // this.instock=true;
-        
+
     }
     display(){
         return `Name: ${this.name}, Price: $${this.price}, Description: ${this.description}`}
